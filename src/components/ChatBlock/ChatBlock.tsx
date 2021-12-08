@@ -1,26 +1,28 @@
 import React from 'react'
 import s from './ChatBlock.module.css'
 
-export const ChatBlock = () => {
+type PropsType = {
+    img: string
+    name: string
+    message: string
+}
+
+export const ChatBlock = (props: PropsType) => {
     return (
         <div className={s.container}>
 
             <div className={s.photoName}>
-                <div >
-                    <img
-                        className={s.photo}
-                        src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNIe25xV_kwCg1siz7EkBiL3cYXNwDh_6xaQ&usqp=CAU'}
-                        alt={'Photo'}
-                    />
+                <div>
+                    <img className={s.photo} src={props.img}/>
                 </div>
 
                 <div className={s.name}>
-                    Name
+                    {props.name}
                 </div>
             </div>
 
             <div className={s.message}>
-                Message...
+                {props.message}
             </div>
         </div>
     )

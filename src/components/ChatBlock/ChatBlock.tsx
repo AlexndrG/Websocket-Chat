@@ -13,7 +13,7 @@ export const ChatBlock = (props: PropsType) => {
 
             <div className={s.photoName}>
                 <div>
-                    <img className={s.photo} src={props.img}/>
+                    <img className={s.photo} src={props.img} alt={'Avatar'}/>
                 </div>
 
                 <div className={s.name}>

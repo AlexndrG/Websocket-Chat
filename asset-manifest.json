@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Websocket-Chat/static/css/main.ed8e6e6c.chunk.css",
+    "main.js": "/Websocket-Chat/static/js/main.4931ba97.chunk.js",
+    "main.js.map": "/Websocket-Chat/static/js/main.4931ba97.chunk.js.map",
+    "runtime-main.js": "/Websocket-Chat/static/js/runtime-main.3c8e53c8.js",
+    "runtime-main.js.map": "/Websocket-Chat/static/js/runtime-main.3c8e53c8.js.map",
+    "static/js/2.cb1fc3ea.chunk.js": "/Websocket-Chat/static/js/2.cb1fc3ea.chunk.js",
+    "static/js/2.cb1fc3ea.chunk.js.map": "/Websocket-Chat/static/js/2.cb1fc3ea.chunk.js.map",
+    "static/js/3.be5f4b65.chunk.js": "/Websocket-Chat/static/js/3.be5f4b65.chunk.js",
+    "static/js/3.be5f4b65.chunk.js.map": "/Websocket-Chat/static/js/3.be5f4b65.chunk.js.map",
+    "index.html": "/Websocket-Chat/index.html",
+    "static/css/main.ed8e6e6c.chunk.css.map": "/Websocket-Chat/static/css/main.ed8e6e6c.chunk.css.map",
+    "static/js/2.cb1fc3ea.chunk.js.LICENSE.txt": "/Websocket-Chat/static/js/2.cb1fc3ea.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c8e53c8.js",
+    "static/js/2.cb1fc3ea.chunk.js",
+    "static/css/main.ed8e6e6c.chunk.css",
+    "static/js/main.4931ba97.chunk.js"
+  ]
+}

@@ -43,6 +43,10 @@ function App() {
 
     return (
         <div className={s.container}>
+            <div>
+                Чтобы пользоваться чатом, нужно зайти в <b>СВОЮ</b> или <b>Тестовую</b> учетную запись на сайте <a
+                href={'https://social-network.samuraijs.com/'}>social-network.samuraijs.com</a>
+            </div>
 
             <div className={s.chatBlock}>
                 {users.map((u, i) =>

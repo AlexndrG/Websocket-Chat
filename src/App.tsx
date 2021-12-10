@@ -16,16 +16,17 @@ function App() {
     const [message, setMessage] = useState('')
     const [users, setUsers] = useState<MessageType[]>([])
 
-    useEffect(() => {
-        const localWs = new WebSocket('wss://social-network.samuraijs.com/handlers/ChatHandler.ashx')
-
-        localWs.onmessage = (messageEvent) => {
+    if (ws) {
+        ws.onmessage = (messageEvent) => {
             const newData = JSON.parse(messageEvent.data)
-            setUsers(state => [...state, ...newData])
+            setUsers([...users, ...newData])
 
             endRef.current?.scrollIntoView({behavior: 'smooth'})
         }
+    }
 
+    useEffect(() => {
+        const localWs = new WebSocket('wss://social-network.samuraijs.com/handlers/ChatHandler.ashx')
         setWs(localWs)
     }, [])
 
